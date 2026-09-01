@@ -1185,3 +1185,11 @@ footer > a:last-child {
     height: 180px;
   }
 }
+
+/* Hide large hero logo on phones only */
+
+@media (max-width: 520px) {
+  .hero-visual {
+    display: none;
+  }
+}
