@@ -1112,3 +1112,49 @@ footer > a:last-child {
     transition: none;
   }
 }
+/* Optimized SAMS Group logo */
+
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  color: transparent;
+  border: 0;
+  overflow: hidden;
+  background:
+    #ffffff
+    url("sams-group-icon-web.jpg")
+    center / cover
+    no-repeat;
+  box-shadow: 0 0 20px rgba(48, 124, 255, 0.18);
+}
+
+/* Smaller hero logo on mobile */
+
+@media (max-width: 900px) {
+  .hero-visual {
+    width: 260px;
+    height: 260px;
+    top: 105px;
+    right: -30px;
+    opacity: 0.24;
+  }
+
+  .mark-core {
+    width: 155px;
+    height: 155px;
+  }
+
+  .mark-ring-a {
+    width: 220px;
+    height: 220px;
+  }
+
+  .mark-ring-b {
+    width: 275px;
+    height: 275px;
+  }
+
+  .visual-label {
+    display: none;
+  }
+}
