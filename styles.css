@@ -1158,3 +1158,30 @@ footer > a:last-child {
     display: none;
   }
 }
+
+/* Phone logo adjustment */
+
+@media (max-width: 520px) {
+  .hero-visual {
+    width: 180px;
+    height: 180px;
+    top: 90px;
+    right: -10px;
+    opacity: 0.32;
+  }
+
+  .mark-core {
+    width: 105px;
+    height: 105px;
+  }
+
+  .mark-ring-a {
+    width: 145px;
+    height: 145px;
+  }
+
+  .mark-ring-b {
+    width: 180px;
+    height: 180px;
+  }
+}
